@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<style type="text/css">
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans";
+}
+</style>
+
+<head>
+<meta charset="utf-8" />
+<title>-</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta content="" name="description" />
+<meta content="" name="Bard" />
+
+<link href="assets/plugins/jquery-slider/css/jquery.sidr.light.css" rel="stylesheet" type="text/css" media="screen" />
+<!-- BEGIN CORE CSS FRAMEWORK -->
+<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+<!--<link href="assets/plugins/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />-->
+<link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+
+
+<!-- END CORE CSS FRAMEWORK -->
+
+<!-- BEGIN CSS TEMPLATE -->
+<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
+<!-- END CSS TEMPLATE -->
+</head>
+<!-- END HEAD -->
+
+<!-- BEGIN BODY -->
+<body class="">
+<!-- BEGIN HEADER -->
+<div class="header navbar navbar-inverse "> 
+  <!-- BEGIN TOP NAVIGATION BAR -->
+  <div class="navbar-inner">
+    <div class="header-seperation">
+      <div class="pull-left logo_title"><img src="assets/img/logo.png" class="logo"></div>
+      <ul class="nav pull-right notifcation-center">
+        <li class="dropdown" id="header_task_bar"> <a href="javascript:;" onClick="window.location.reload()">
+          <div><i class="fa fa-repeat"></i></div>
+          </a> </li>
+        
+        <li class="dropdown" id="portrait-chat-toggler" style=""> <a href="#sidr" class="chat-menu-toggle dropdown-toggle "> <i class="fa fa-cog"></i> </a> </li>
+      </ul>
+    </div>
+    <!-- END RESPONSIVE MENU TOGGLER -->
+    <div class="header-quick-nav"> 
+      <!-- BEGIN TOP NAVIGATION MENU -->
+
+      <!-- END TOP NAVIGATION MENU --> 
+      <!-- BEGIN CHAT TOGGLER -->
+      <div class="pull-right"></div>
+      <!-- END CHAT TOGGLER --> 
+    </div>
+    <!-- END TOP NAVIGATION MENU --> 
+  </div>
+  <!-- END TOP NAVIGATION BAR --> 
+</div>
+<!-- END HEADER --> 
+<!-- BEGIN CONTAINER -->
+<div class="page-container row-fluid"> 
+  <!-- BEGIN SIDEBAR -->
+
+  <!-- END SIDEBAR --> 
+  <!-- BEGIN PAGE CONTAINER-->
+  <div class="page-content"> 
+    <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+
+
+    <div class="content">
+      <div class="grid simple">
+        <div class="grid-title no-border">
+          <h4>Edit <span class="semi-bold">Domain</span></h4>
+        </div>
+        <div class="grid-body no-border">
+          <div class="row-fluid">
+            <h3>Site <span class="semi-bold">Google</span></h3>
+            <p>You are about to set up this domain account in your app. 
+              DO NOT change the below settings if this is working
+            regularly.</p>
+            <div class="row-fluid">
+              <div class="input-append span12 primary">
+                <input type="text" id="appendedInput" class="span10" placeholder="Google">
+                <span class="add-on"><span class="arrow"></span><i class="fa fa-bookmark"></i> </span> </div>
+            </div>
+            <div class="row-fluid">
+              <div class="input-append span12 primary">
+                <input type="text" id="appendedInput" class="span10" placeholder="www.google.com">
+                <span class="add-on"><span class="arrow"></span><i class="fa fa-globe"></i> </span> </div>
+            </div>
+            <div class="row-fluid">
+              <div class="input-append span12 primary">
+                <input type="password" id="appendedInput2" class="span10" placeholder="********">
+                <span class="add-on"><span class="arrow"></span><i class="fa fa-lock"></i> </span> </div>
+              <span class="small-text">DO NOT use your site admin login info.</span></div>
+          </div>
+          <div class="form-actions">
+            <div class="pull-right">
+              <button type="submit" class="btn btn-primary btn-cons" onclick="location.href='a_index.html'"> Edit</button>
+              <button type="button" class="btn btn-white btn-cons" onclick="location.href='a_index.html'">Cancel</button>
+              <button type="button" class="btn btn-white btn-cons" onclick="location.href='a_index.html'">Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid simple" style="text-align:center"> <span class="small-text">HummingNotice is a site to smartphone notification service solution. <a href="#">Terms and services</a></span> </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <!-- END PAGE --> 
+  </div>
+</div>
+<!-- END CONTAINER --> 
+<!-- BEGIN CHAT -->
+<script type="text/javascript">// <![CDATA[
+hide//
+
+
+function expandCollapse() {
+for (var i=0; i<expandCollapse.arguments.length; i++) {
+var element = document.getElementById(expandCollapse.arguments[i]);
+element.style.display = (element.style.display == "none") ? "block" : "none";
+
+}
+
+}
+
+// ]]></script>
+<div id="sidr">
+  <div class="chat-window-wrapper">
+    <div class="chat-header">
+      <div class="pull-left"> </div>
+    </div>
+    <div class="side-widget">
+      <div class="side-widget-title">Domains</div>
+      <ul class="side-widget-content" id="friends-list">
+        <li>
+          <div id="12a">
+            <div class="user-details-wrapper active">
+              <div class="user-details">
+                <div class="user-name"> Google</div>
+                <div class="user-more"> www.google.com</div>
+              </div>
+              <div class="user-details-status-wrapper"> <span class="badge badge-important">3</span></div>
+              <div class="user-details-count-wrapper"> <a href="javascript: expandCollapse('12a', '12b');"><i class="fa fa-cog"></i></a> </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <div style="display: none;" id="12b">
+            <div class="user-details-wrapper active">
+              <div class="user-details">
+                <div class="user-name"> Google</div>
+                <div class="user-more"> www.google.com</div>
+              </div>
+              <div class="user-details-status-wrapper"> <span class="badge badge-important">3</span></div>
+              <div class="user-details-count-wrapper"> <a href="javascript: expandCollapse('12a', '12b');"><i class="fa fa-cog"></i></a> </div>
+              <div class="clearfix"></div>
+            </div>
+            <br />
+            <ul>
+              <li onclick="location.href='a_edit_domain.html'">Edit domain</li>
+              <li id="toggletext">Connecting</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div id="13a">
+            <div class="user-details-wrapper">
+              <div class="user-details">
+                <div class="user-name"> Yahoo</div>
+                <div class="user-more"> www.yahoo.com</div>
+              </div>
+              <div class="user-details-status-wrapper"> <span class="badge"><i class="fa fa-times" style="font-size:11px"></i></span></div>
+              <div class="user-details-count-wrapper"> <a href="javascript: expandCollapse('13a', '13b');"><i class="fa fa-cog"></i></a> </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <div style="display: none;" id="13b">
+            <div class="user-details-wrapper">
+              <div class="user-details">
+                <div class="user-name"> Yahoo</div>
+                <div class="user-more"> www.yahoo.com</div>
+              </div>
+              <div class="user-details-status-wrapper"> <span class="badge"><i class="fa fa-times" style="font-size:11px"></i></span></div>
+              <div class="user-details-count-wrapper"> <a href="javascript: expandCollapse('13a', '13b');"><i class="fa fa-cog"></i></a> </div>
+              <div class="clearfix"></div>
+            </div>
+            <br />
+            <ul>
+              <li onclick="location.href='a_edit_domain.html'">Edit domain</li>
+              <li id="toggletext">Connecting</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div id="14a">
+            <div class="user-details-wrapper">
+              <div class="user-details">
+                <div class="user-name"> Msn</div>
+                <div class="user-more"> www.msn.com</div>
+              </div>
+              <div class="user-details-status-wrapper"> <span class="badge badge-important">1</span></div>
+              <div class="user-details-count-wrapper"> <a href="javascript: expandCollapse('14a', '14b');"><i class="fa fa-cog"></i></a> </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <div style="display: none;" id="14b">
+            <div class="user-details-wrapper">
+              <div class="user-details">
+                <div class="user-name"> Msn</div>
+                <div class="user-more"> www.msn.com</div>
+              </div>
+              <div class="user-details-status-wrapper"> <span class="badge badge-important">1</span></div>
+              <div class="user-details-count-wrapper"> <a href="javascript: expandCollapse('14a', '14b');"><i class="fa fa-cog"></i></a> </div>
+              <div class="clearfix"></div>
+            </div>
+            <br />
+            <ul>
+              <li onclick="location.href='a_edit_domain.html'">Edit domain</li>
+              <li id="toggletext">Connecting</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div id="15a">
+            <div class="user-details-wrapper" onclick="location.href='a_add_domain.html'">
+              <div class="user-details">
+                <div class="user-name"><i class="fa fa-plus"></i> Add</div>
+                <div class="user-more"> Add a new domain</div>
+              </div>
+              <div class="user-details-status-wrapper">
+                <div class="clearfix"></div>
+              </div>
+              <div class="user-details-count-wrapper"></div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- END CHAT --> 
+<!-- END CONTAINER --> 
+
+<!-- BEGIN CORE JS FRAMEWORK--> 
+<script src="assets/plugins/jquery-1.8.3.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/jquery-ui/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script> 
+
+
+<!-- END CORE JS FRAMEWORK --> 
+<!-- BEGIN PAGE LEVEL JS --> 
+<script src="assets/plugins/jquery-slider/jquery.sidr.min.js" type="text/javascript"></script> 
+<script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script> 
+
+
+<!-- END PAGE LEVEL PLUGINS --> 
+<!-- BEGIN CORE TEMPLATE JS --> 
+<script src="assets/js/core.js" type="text/javascript"></script> 
+<script src="assets/js/demo.js" type="text/javascript"></script> 
+
+</div>
+    <script type="text/javascript">
+$('#toggletext').toggle(function() {
+    $(this).html('Disconnect');
+	$("#toggletext").addClass("text-error");
+}, 
+function() {
+    $(this).html('Connecting');
+	$("#toggletext").removeClass("text-error");
+});
+</script> 
+<!-- END CORE TEMPLATE JS -->
+</body>
